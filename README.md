@@ -2,7 +2,9 @@
 
 A simple wrapper around JXA scripts to allow you to control your Mac using PHP.
 
-**👋 This is a work in progress and is not ready for production use.** That being said, it's pretty fun to play with. So please do so.
+**👋 This is a work in progress and is not ready for production use.** I'm still finalizing the API and adding features, things may change.
+
+That being said, it's pretty fun to play with. So please do so.
 
 ## Installation
 
@@ -102,11 +104,14 @@ Automator::make()
     ->type('Warp Launch')
     ->pause(.5)
     ->enter()
+    ->pause(.5)
     ->type('blog-joe-codes')
     ->pause(.5)
     ->enter()
     ->run();
 ```
+
+![Code Snippet Demo](images/raycast-demo.gif)
 
 ### Demo a Code Snippet
 
@@ -125,6 +130,8 @@ Automator::make()
     ->type('echo "Hello World!";')
     ->run();
 ```
+
+![Code Snippet Demo](images/vscode-demo.gif)
 
 ## Roadmap
 
