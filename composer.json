@@ -1,0 +1,20 @@
+{
+    "name": "joetannenbaum/php-remote-control",
+    "description": "Remote control your computer via a PHP script",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Automator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Tannenbaum",
+            "email": "joe@joe.codes"
+        }
+    ],
+    "require-dev": {
+        "tightenco/duster": "^2.0"
+    }
+}
