@@ -1,6 +1,6 @@
 {
-    "name": "joetannenbaum/php-remote-control",
-    "description": "Remote control your computer via a PHP script",
+    "name": "joetannenbaum/php-mac-automator",
+    "description": "Automate your Mac with PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
