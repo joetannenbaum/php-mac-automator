@@ -9,22 +9,22 @@ trait KeyHelpers
         return $this->type(Key::RETURN, $modifiers);
     }
 
-    public function downArrow(Modifier|array $modifiers = null): static
+    public function arrowDown(Modifier|array $modifiers = null): static
     {
         return $this->type(Key::ARROW_DOWN, $modifiers);
     }
 
-    public function upArrow(Modifier|array $modifiers = null): static
+    public function arrowUp(Modifier|array $modifiers = null): static
     {
         return $this->type(Key::ARROW_UP, $modifiers);
     }
 
-    public function leftArrow(Modifier|array $modifiers = null): static
+    public function arrowLeft(Modifier|array $modifiers = null): static
     {
         return $this->type(Key::ARROW_LEFT, $modifiers);
     }
 
-    public function rightArrow(Modifier|array $modifiers = null): static
+    public function arrowRight(Modifier|array $modifiers = null): static
     {
         return $this->type(Key::ARROW_RIGHT, $modifiers);
     }
